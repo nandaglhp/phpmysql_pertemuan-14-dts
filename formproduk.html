@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Produk</title>
+  </head>
+  <body>
+    <h1>Formulir Input Produk</h1>
+    <form action="prosesproduk.php" method="post">
+      <label for="nama">Nama Produk:</label>
+      <input type="text" id="nama" name="nama" required /><br /><br />
+
+      <label for="harga">Harga:</label>
+      <input type="number" id="harga" name="harga" step="0.01" required /><br /><br />
+
+      <label for="kategori">Kategori:</label>
+      <input type="text" id="kategori" name="kategori" required /><br /><br />
+
+      <input type="submit" value="Kirim" />
+    </form>
+  </body>
+</html>
